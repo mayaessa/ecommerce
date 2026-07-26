@@ -4,7 +4,7 @@ const flashSales = [
   { id: 1, img: "/g92-2-500x500 1.png", name: "HAVIT HV-G92 Gamepad", price: 120, oldPrice: 160, discount: "-40%", rating: 4 },
   { id: 2, img: "/ak-900-01-500x500 1.png", name: "AK-900 Wired Keyboard", price: 960, oldPrice: 1160, discount: "-35%", rating: 5 },
   { id: 3, img: "/g27cq4-500x500 1.png", name: "IPS LCD Gaming Monitor", price: 370, oldPrice: 400, discount: "-30%", rating: 5 },
-  { id: 4, img: "/sam-moghadam-khamseh-kvmdsTrGOBM-unsplash 1.png", name: "S-Series Comfort Chair", price: 375, oldPrice: 400, discount: "-25%", rating: 4.5 },
+  { id: 4, img: "/sam-moghadam-khamseh-L_7MQsHl_aU-unsplash 1.png", name: "S-Series Comfort Chair", price: 375, oldPrice: 400, discount: "-25%", rating: 4.5 },
 ];
 
 const bestSelling = [
@@ -67,7 +67,7 @@ function HomePage() {
     <div className="homepage">
       <div className="container">
 
-        
+        {/* Hero Section */}
         <div className="row hero-section">
           <div className="col-lg-3 d-none d-lg-block">
             <ul className="sidebar-categories">
@@ -99,7 +99,7 @@ function HomePage() {
           </div>
         </div>
 
-      
+        {/* Flash Sales */}
         <section className="product-section">
           <div className="section-header">
             <div>
@@ -135,7 +135,7 @@ function HomePage() {
 
         <hr className="section-divider" />
 
-        
+        {/* Categories */}
         <section className="product-section">
           <div className="section-header">
             <div>
@@ -169,7 +169,7 @@ function HomePage() {
 
         <hr className="section-divider" />
 
-        
+        {/* Best Selling */}
         <section className="product-section">
           <div className="section-header">
             <div>
@@ -188,7 +188,7 @@ function HomePage() {
           </div>
         </section>
 
-      
+        {/* Music Banner */}
         <section className="music-banner">
           <div className="music-text">
             <p className="music-label">Categories</p>
@@ -204,7 +204,7 @@ function HomePage() {
           <img src="/JBL_BOOMBOX_2_HERO_020_x1 (1) 1.png" alt="speaker" className="music-image" />
         </section>
 
-        
+        {/* Explore Products */}
         <section className="product-section">
           <div className="section-header">
             <div>
@@ -232,7 +232,7 @@ function HomePage() {
 
         <hr className="section-divider" />
 
-       
+        {/* New Arrival */}
         <section className="product-section">
           <div className="section-header">
             <div>
@@ -289,7 +289,7 @@ function HomePage() {
           </div>
         </section>
 
-       
+        {/* Features */}
         <div className="row features-section">
           {features.map((feature, index) => (
             <div className="col-md-4" key={index}>

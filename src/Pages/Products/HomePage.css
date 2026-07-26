@@ -437,3 +437,18 @@
   color: #666;
   font-size: 14px;
 }
+.category-icon-img {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
+  margin-bottom: 10px;
+}
+
+.homepage-loading {
+  min-height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  color: #666;
+}
